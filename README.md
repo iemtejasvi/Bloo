@@ -1,9 +1,9 @@
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/188c42f8-d249-4a72-b27a-e2b4f10a00a8" alt="Bloo Android Logo" width="320">
+    <img src="docs/assets/bloo-icon.png" alt="Bloo icon" width="220">
 </p>
 
-> [!WARNING]
-> Bloo has not yet undergone an external security review. Do not rely on it for sensitive communications until you have independently evaluated the security posture.
+> [!NOTE]
+> Bloo is under active development. Review the codebase and threat model before depending on it for critical or high-risk communications.
 
 # Bloo for Android
 
