@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">بیٹری آپٹمائزیشن بند کرو</string>
     <string name="battery_optimization_note">نوٹ: تُسی ایہ بعد وچ Android سیٹنگز &gt; ایپس &gt; Bloo &gt; بیٹری وچ بدَل سکدے او۔</string>
     <string name="battery_optimization_not_supported_explanation">توانڈے ڈیوائس نوں بیٹری آپٹمائزیشن سیٹنگ دی لوڑ نئیں۔ Bloo عام طرح چلّو گا۔</string>
-    <string name="battery_optimization_not_supported_message">توانڈے ڈیوائس نوں بیٹری آپٹمائزیشن سیٹنگ دی لوڑ نئیں۔ Bloo عام طرح چلّو گا۔</string>
     <string name="battery_optimization_success_message">Bloo پس منظر وچ قابلِ اعتماد چل سکدا اے</string>
     <string name="battery_optimization_benefits">• معتبر پیغام ترسیل\n• میش کنکشن برقرار\n• پس منظر وچ پیغام ریلے\n• کنکشن ٹٹّن توں بچاؤ</string>
     <string name="battery_optimization_check_again">فیر چیک کرو</string>

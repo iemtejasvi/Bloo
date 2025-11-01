@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">Nonaktifkan optimalisasi baterai</string>
     <string name="battery_optimization_note">Catatan: Anda dapat mengubahnya nanti di Pengaturan Android &gt; Aplikasi &gt; Bloo &gt; Baterai.</string>
     <string name="battery_optimization_not_supported_explanation">Perangkat Anda tidak memerlukan pengaturan optimalisasi baterai. Bloo akan berjalan normal.</string>
-    <string name="battery_optimization_not_supported_message">Perangkat Anda tidak memerlukan pengaturan optimalisasi baterai. Bloo akan berjalan normal.</string>
     <string name="battery_optimization_success_message">Bloo dapat berjalan andal di latar belakang</string>
     <string name="battery_optimization_benefits">• Pengiriman pesan yang andal\n• Mempertahankan koneksi mesh\n• Relay pesan latar belakang\n• Mencegah putusnya koneksi</string>
     <string name="battery_optimization_check_again">Periksa lagi</string>

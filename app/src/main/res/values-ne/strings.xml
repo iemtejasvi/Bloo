@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">ब्याट्री अनुकूलन बन्द गर्नुहोस्</string>
     <string name="battery_optimization_note">नोट: यो सेटिङ पछि Android सेटिङहरू &gt; Apps &gt; Bloo &gt; Battery मा परिवर्तन गर्न सकिन्छ।</string>
     <string name="battery_optimization_not_supported_explanation">तपाईंको यन्त्रलाई ब्याट्री अनुकूलन सेटिङ आवश्यक छैन। Bloo सामान्य रूपमा चल्नेछ।</string>
-    <string name="battery_optimization_not_supported_message">तपाईंको यन्त्रलाई ब्याट्री अनुकूलन सेटिङ आवश्यक छैन। Bloo सामान्य रूपमा चल्नेछ।</string>
     <string name="battery_optimization_success_message">Bloo पछाडिबाट भरपर्दो रूपमा चल्न सक्छ</string>
     <string name="battery_optimization_benefits">• सन्देश विश्वसनीय डेलिभरी\n• मेष जडान कायम राख्ने\n• पृष्ठभूमिमा रिले\n• जडान विच्छेद हुन नदिने</string>
     <string name="battery_optimization_check_again">फेरि जाँच्नुहोस्</string>

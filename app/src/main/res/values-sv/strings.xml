@@ -28,7 +28,6 @@
     <string name="battery_optimization_disable_button">Inaktivera optimering</string>
     <string name="battery_optimization_note">Obs: kan ändras senare i Android-inställningar &gt; Appar &gt; Bloo &gt; Batteri</string>
     <string name="battery_optimization_not_supported_explanation">Din enhet kräver inte batterioptimeringsinställningar. Bloo körs normalt.</string>
-    <string name="battery_optimization_not_supported_message">Din enhet kräver inte batterioptimeringsinställningar. Bloo körs normalt.</string>
     <string name="battery_optimization_success_message">Bloo kan köras tillförlitligt i bakgrunden</string>
     <string name="battery_optimization_benefits">• Tillförlitlig leverans\n• Upprätthåller mesh-anslutning\n• Bakgrundsrelä\n• Förhindrar avbrott</string>
     <string name="battery_optimization_check_again">Kontrollera igen</string>

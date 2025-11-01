@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">بیٹری کی اصلاح بند کریں</string>
     <string name="battery_optimization_note">نوٹ: آپ بعد میں Android سیٹنگز &gt; ایپس &gt; Bloo &gt; بیٹری میں اسے تبدیل کر سکتے ہیں۔</string>
     <string name="battery_optimization_not_supported_explanation">آپ کے آلے کو بیٹری کی اصلاح کی سیٹنگز کی ضرورت نہیں۔ Bloo عام طور پر چلے گا۔</string>
-    <string name="battery_optimization_not_supported_message">آپ کے آلے کو بیٹری کی اصلاح کی سیٹنگز کی ضرورت نہیں۔ Bloo عام طور پر چلے گا۔</string>
     <string name="battery_optimization_success_message">Bloo پس منظر میں قابل اعتماد طور پر چل سکتا ہے</string>
     <string name="battery_optimization_benefits">• پیغامات کی قابل اعتماد ڈیلیوری\n• میش کنیکشن برقرار رکھنا\n• پس منظری پیغام فارورڈنگ\n• منطقی کنیکشن سے بچاؤ</string>
     <string name="battery_optimization_check_again">دوبارہ چیک کریں</string>

@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">Akku‑Optimierung deaktivieren</string>
     <string name="battery_optimization_note">Hinweis: Du kannst dies später unter Android‑Einstellungen &gt; Apps &gt; Bloo &gt; Akku ändern.</string>
     <string name="battery_optimization_not_supported_explanation">Dein Gerät benötigt keine Akku‑Optimierungs­einstellungen. Bloo läuft normal.</string>
-    <string name="battery_optimization_not_supported_message">Dein Gerät benötigt keine Akku‑Optimierungs­einstellungen. Bloo läuft normal.</string>
     <string name="battery_optimization_success_message">Bloo kann zuverlässig im Hintergrund laufen</string>
     <string name="battery_optimization_benefits">• Zuverlässige Zustellung von Nachrichten\n• Aufrechterhaltung der Mesh‑Verbindung\n• Hintergrundweiterleitung von Nachrichten\n• Verhindert Verbindungsabbrüche</string>
     <string name="battery_optimization_check_again">Erneut prüfen</string>

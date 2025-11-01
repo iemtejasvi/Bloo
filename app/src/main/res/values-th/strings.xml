@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">ปิดการเพิ่มประสิทธิภาพแบตเตอรี่</string>
     <string name="battery_optimization_note">หมายเหตุ: คุณสามารถเปลี่ยนได้ภายหลังที่ การตั้งค่า Android &gt; แอป &gt; Bloo &gt; แบตเตอรี่</string>
     <string name="battery_optimization_not_supported_explanation">อุปกรณ์ของคุณไม่ต้องการการตั้งค่าการเพิ่มประสิทธิภาพแบตเตอรี่ Bloo จะทำงานตามปกติ</string>
-    <string name="battery_optimization_not_supported_message">อุปกรณ์ของคุณไม่ต้องการการตั้งค่าการเพิ่มประสิทธิภาพแบตเตอรี่ Bloo จะทำงานตามปกติ</string>
     <string name="battery_optimization_success_message">Bloo สามารถทำงานเบื้องหลังได้อย่างเชื่อถือได้</string>
     <string name="battery_optimization_benefits">• ส่งข้อความได้อย่างเชื่อถือ\n• รักษาการเชื่อมต่อแบบเมช\n• ส่งต่อข้อความเบื้องหลัง\n• ป้องกันการหลุดการเชื่อมต่อ</string>
     <string name="battery_optimization_check_again">ตรวจสอบอีกครั้ง</string>

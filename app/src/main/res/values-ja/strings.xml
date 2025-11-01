@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">バッテリー最適化を無効にする</string>
     <string name="battery_optimization_note">注: 後で Android の設定 &gt; アプリ &gt; Bloo &gt; バッテリー で変更できます。</string>
     <string name="battery_optimization_not_supported_explanation">この端末ではバッテリー最適化の設定は不要です。Bloo は通常通り動作します。</string>
-    <string name="battery_optimization_not_supported_message">この端末ではバッテリー最適化の設定は不要です。Bloo は通常通り動作します。</string>
     <string name="battery_optimization_success_message">Bloo はバックグラウンドで信頼して動作できます</string>
     <string name="battery_optimization_benefits">• メッセージの確実な配信\n• メッシュ接続の維持\n• バックグラウンド転送\n• 切断の防止</string>
     <string name="battery_optimization_check_again">再確認</string>

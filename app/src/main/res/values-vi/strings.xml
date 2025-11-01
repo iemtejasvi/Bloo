@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">Tắt tối ưu hóa pin</string>
     <string name="battery_optimization_note">Lưu ý: Bạn có thể thay đổi điều này sau trong Android Settings &gt; Apps &gt; Bloo &gt; Battery.</string>
     <string name="battery_optimization_not_supported_explanation">Thiết bị của bạn không cần cài đặt tối ưu hóa pin. Bloo sẽ chạy bình thường.</string>
-    <string name="battery_optimization_not_supported_message">Thiết bị của bạn không cần cài đặt tối ưu hóa pin. Bloo sẽ chạy bình thường.</string>
     <string name="battery_optimization_success_message">Bloo có thể chạy đáng tin cậy trong nền</string>
     <string name="battery_optimization_benefits">• Gửi tin nhắn đáng tin cậy\n• Duy trì kết nối mesh\n• Chuyển tiếp tin nhắn nền\n• Ngăn ngừa mất kết nối</string>
     <string name="battery_optimization_check_again">Kiểm tra lại</string>

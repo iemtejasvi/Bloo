@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">Batterijoptimalisatie uitschakelen</string>
     <string name="battery_optimization_note">Opmerking: U kunt deze instelling later wijzigen in Android-instellingen &gt; Apps &gt; Bloo &gt; Batterij</string>
     <string name="battery_optimization_not_supported_explanation">Uw apparaat vereist geen batterijoptimalisatie-instellingen. Bloo zal normaal draaien.</string>
-    <string name="battery_optimization_not_supported_message">Uw apparaat vereist geen batterijoptimalisatie-instellingen. Bloo zal normaal draaien.</string>
     <string name="battery_optimization_success_message">Bloo kan betrouwbaar op de achtergrond draaien</string>
     <string name="battery_optimization_benefits">• Zorgt voor betrouwbare berichtbezorging\n• Onderhoudt meshnetwerkconnectiviteit\n• Staat berichtrelay op achtergrond toe\n• Voorkomt verbindingsonderbrekingen</string>
     <string name="battery_optimization_check_again">Opnieuw controleren</string>

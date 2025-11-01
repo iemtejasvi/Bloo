@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">غیرفعال‌کردن بهینه‌سازی باتری</string>
     <string name="battery_optimization_note">توجه: می‌توانید بعداً در تنظیمات اندروید &gt; برنامه‌ها &gt; Bloo &gt; باتری این مورد را تغییر دهید.</string>
     <string name="battery_optimization_not_supported_explanation">دستگاه شما به تنظیمات بهینه‌سازی باتری نیاز ندارد. Bloo به‌صورت عادی اجرا می‌شود.</string>
-    <string name="battery_optimization_not_supported_message">دستگاه شما به تنظیمات بهینه‌سازی باتری نیاز ندارد. Bloo به‌صورت عادی اجرا می‌شود.</string>
     <string name="battery_optimization_success_message">Bloo می‌تواند با اطمینان در پس‌زمینه اجرا شود</string>
     <string name="battery_optimization_benefits">• تحویل مطمئن پیام‌ها\n• حفظ اتصال مِش\n• رلهٔ پیام در پس‌زمینه\n• جلوگیری از قطع اتصال</string>
     <string name="battery_optimization_check_again">بررسی مجدد</string>

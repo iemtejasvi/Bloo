@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">Hajanona ny Fanamafisana Bateria</string>
     <string name="battery_optimization_note">Fanamarihana: Azonao ovaina ato aoriana izany amin\'ny Toetry Android &gt; Apps &gt; Bloo &gt; Bateria</string>
     <string name="battery_optimization_not_supported_explanation">Ny fitaovanao dia tsy mila fametrahana fanamafisana bateria. Ny Bloo dia handeha ara-dalàna.</string>
-    <string name="battery_optimization_not_supported_message">Ny fitaovanao dia tsy mila fametrahana fanamafisana bateria. Ny Bloo dia handeha ara-dalàna.</string>
     <string name="battery_optimization_success_message">Afaka mihazakazaka azo itokisana ao ambadika ny Bloo</string>
     <string name="battery_optimization_benefits">• Miantoka ny fandefasana hafatra azo itokisana\n• Mitazona ny fifandraisana tambazotry mesh\n• Mamela ny famindrana hafatra ao ambadika\n• Misoroka ny fahatapahan\'ny fifandraisana</string>
     <string name="battery_optimization_check_again">Hanamarina indray</string>

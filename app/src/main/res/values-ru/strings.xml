@@ -28,7 +28,6 @@
     <string name="battery_optimization_disable_button">Отключить оптимизацию</string>
     <string name="battery_optimization_note">Примечание: это можно изменить позже в Настройки Android &gt; Приложения &gt; Bloo &gt; Батарея</string>
     <string name="battery_optimization_not_supported_explanation">На вашем устройстве не требуются настройки оптимизации. Bloo будет работать штатно.</string>
-    <string name="battery_optimization_not_supported_message">На вашем устройстве не требуются настройки оптимизации. Bloo будет работать штатно.</string>
     <string name="battery_optimization_success_message">Bloo может надёжно работать в фоне</string>
     <string name="battery_optimization_benefits">• Надёжная доставка сообщений\n• Поддержка mesh‑связи\n• Фоновая ретрансляция\n• Предотвращение обрывов связи</string>
     <string name="battery_optimization_check_again">Проверить снова</string>

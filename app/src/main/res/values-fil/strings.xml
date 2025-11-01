@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">I‑disable ang pag‑optimize</string>
     <string name="battery_optimization_note">Tandaan: Maaari itong baguhin sa Android Settings &gt; Apps &gt; Bloo &gt; Battery</string>
     <string name="battery_optimization_not_supported_explanation">Hindi kailangan ng iyong device ng mga setting ng pag‑optimize ng baterya. Normal na gagana ang Bloo.</string>
-    <string name="battery_optimization_not_supported_message">Hindi kailangan ng iyong device ng mga setting ng pag‑optimize ng baterya. Normal na gagana ang Bloo.</string>
     <string name="battery_optimization_success_message">Maaasahang tatakbo ang Bloo sa background</string>
     <string name="battery_optimization_benefits">• Maaasahang paghatid ng mensahe\n• Pinananatili ang mesh na koneksyon\n• Background relay ng mensahe\n• Iwas putol ng koneksyon</string>
     <string name="battery_optimization_check_again">Suriin muli</string>

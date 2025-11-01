@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">禁用电池优化</string>
     <string name="battery_optimization_note">备注：稍后可在 设置 &gt; 应用 &gt; Bloo &gt; 电池 中更改。</string>
     <string name="battery_optimization_not_supported_explanation">你的设备不需要电池优化设置。Bloo 将正常运行。</string>
-    <string name="battery_optimization_not_supported_message">你的设备不需要电池优化设置。Bloo 将正常运行。</string>
     <string name="battery_optimization_success_message">Bloo 可在后台可靠运行</string>
     <string name="battery_optimization_benefits">• 可靠投递消息\n• 维持 mesh 连接\n• 后台转发\n• 避免断连</string>
     <string name="battery_optimization_check_again">重新检查</string>

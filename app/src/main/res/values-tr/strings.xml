@@ -28,7 +28,6 @@
     <string name="battery_optimization_disable_button">Optimizasyonu kapat</string>
     <string name="battery_optimization_note">Not: Daha sonra Ayarlar &gt; Uygulamalar &gt; Bloo &gt; Pil üzerinden değiştirebilirsin.</string>
     <string name="battery_optimization_not_supported_explanation">Cihazının pil optimizasyonu ayarlarına ihtiyacı yok. Bloo normal çalışır.</string>
-    <string name="battery_optimization_not_supported_message">Cihazının pil optimizasyonu ayarlarına ihtiyacı yok. Bloo normal çalışır.</string>
     <string name="battery_optimization_success_message">Bloo arka planda güvenle çalışabilir</string>
     <string name="battery_optimization_benefits">• Güvenilir mesaj teslimi\n• Mesh bağlantısını korur\n• Arka planda iletim\n• Kopmaları önler</string>
     <string name="battery_optimization_check_again">Tekrar kontrol et</string>

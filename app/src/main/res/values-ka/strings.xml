@@ -33,7 +33,6 @@
     <string name="battery_optimization_disable_button">ბატარეის ოპტიმიზაციის გამორთვა</string>
     <string name="battery_optimization_note">შენიშვნა: შეგიძლიათ შეცვალოთ მოგვიანებით Android-ის პარამეტრებში &gt; აპები &gt; Bloo &gt; ბატარეა.</string>
     <string name="battery_optimization_not_supported_explanation">თქვენს მოწყობილობას ბატარეის ოპტიმიზაცია არ სჭირდება. Bloo ჩვეულებრივ იმუშავებს.</string>
-    <string name="battery_optimization_not_supported_message">თქვენს მოწყობილობას ბატარეის ოპტიმიზაცია არ სჭირდება. Bloo ჩვეულებრივ იმუშავებს.</string>
     <string name="battery_optimization_success_message">Bloo შეძლებს სანდოდ იმუშაოს ფონში</string>
     <string name="battery_optimization_benefits">• შეტყობინებების სანდო მიწოდება\n• mesh-კავშირის შენარჩუნება\n• ფონური გადაგზავნა\n• გათიშვების თავიდან აცილება</string>
     <string name="battery_optimization_check_again">თავიდან შემოწმება</string>
