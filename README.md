@@ -3,34 +3,40 @@
 </p>
 
 > [!NOTE]
-> Bloo is under active development. Review the codebase and threat model before depending on it for critical or high-risk communications.
+> Bloo is an evolving community project. Audit the source and evaluate your threat model before adopting it for sensitive missions.
 
 # Bloo for Android
 
-Bloo is a secure, decentralized, peer-to-peer messaging app that uses Bluetooth mesh networking to keep you connected even when the internet is unavailable. No accounts, phone numbers, or servers are required—just encrypted communication between nearby devices. Geohash channels extend Bloo with an optional internet relay, letting you reach other people in your area when connectivity is available.
+Bloo delivers resilient messaging without depending on cellular towers or the public internet. Devices create a spontaneous mesh over Bluetooth LE, relaying encrypted chats, file transfers, and announcements. When a data connection is available, Bloo can optionally lean on Nostr relays to bridge distant peers through geolocation channels.
 
-The Android app is maintained by **Tejasvi Sharma** and stays protocol-compatible with the original open-source iOS implementation so Android and iOS users can communicate seamlessly.
+The Android app is maintained by **Tejasvi Sharma** and remains protocol-aligned with the open-source iOS implementation so mixed-device groups can converse without friction.
 
-## Repository & Support
+## Quick Links
 
-- **Source Code**: <https://github.com/iemtejasvi/Bloo>
-- **Issues & Feature Requests**: <https://github.com/iemtejasvi/Bloo/issues>
-- **Discussions**: <https://github.com/iemtejasvi/Bloo/discussions>
+| Resource | URL |
+| --- | --- |
+| Project home | <https://github.com/iemtejasvi/Bloo> |
+| Issue tracker | <https://github.com/iemtejasvi/Bloo/issues> |
+| Discussions | <https://github.com/iemtejasvi/Bloo/discussions> |
+| Releases / APK downloads | <https://github.com/iemtejasvi/Bloo/releases> |
 
-## Installation
+## Highlights
 
-Binaries are published on the [GitHub Releases page](https://github.com/iemtejasvi/Bloo/releases). Each release provides:
+- **Mesh-first connectivity** – Auto-discovers nearby devices and forms multi-hop routes.
+- **End-to-end privacy** – Noise-based encryption protects DMs and passworded channels.
+- **Geohash communities** – Join location-scoped rooms through optional Nostr relays.
+- **Emergency data wipe** – Triple-tap the title to instantly purge on-device secrets.
+- **Compose UI** – Built with the latest Android design patterns, light and dark themes.
+- **Power-aware scanning** – Dynamically adapts Bluetooth duties to match battery state.
 
-1. **Universal APK** for side-loading
-2. **SHA256 checksums** for verification
+## Getting Started
 
-### Manual Install
+### Install from Releases
+1. Grab the newest APK from the [Releases](https://github.com/iemtejasvi/Bloo/releases) page.
+2. Allow installs from your browser or file manager if Android prompts for permission.
+3. Launch Bloo and grant the requested Bluetooth, location, and notification permissions so peers can see you.
 
-1. **Download** the latest `apk` from the releases page.
-2. **Enable unknown sources** on your device (Settings → Security → Install unknown apps).
-3. **Install & launch** the downloaded package. Bloo will immediately start discovering peers and relays.
-
-### Build From Source
+### Build It Yourself
 
 ```bash
 git clone https://github.com/iemtejasvi/Bloo.git
@@ -39,93 +45,50 @@ cd Bloo
 adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
-For release builds run `./gradlew assembleRelease` and sign the resulting APK/AAB with your release keys.
+Run `./gradlew assembleRelease` to produce a release bundle or APK, then sign it with your own keys before sideloading or publishing.
 
-## License
+## Developer Toolkit
 
-Bloo is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for the full text.
+- Android Studio Ladybug (2024.2.1) or newer recommended
+- Android SDK 26+
+- Kotlin 1.9+
+- Uses the Gradle Wrapper (no global Gradle install required)
 
-```
-Copyright (c) Tejasvi Sharma
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-## Features
-
-- 🔗 **Cross-platform** — Fully interoperable with the iOS implementation
-- 📡 **Decentralized mesh** — Automatic discovery and multi-hop relays over Bluetooth LE
-- 🔐 **End-to-end encryption** — X25519 + AES-256-GCM for private messages, Argon2id-secured channels
-- 🛰️ **Geohash channels** — Meet people nearby using optional internet relays
-- 🧹 **Emergency wipe** — Triple-tap the logo to wipe all locally stored data
-- 🌓 **Material Design 3 UI** — Compose-based interface with dark and light themes
-- ⚡ **Power aware** — Adaptive scanning modes to maximise battery life
-
-## Developer Environment
-
-- **Android Studio**: Ladybug (2024.2.1) or newer recommended
-- **Android SDK**: API 26 or later (builds target latest stable API)
-- **Kotlin**: 1.9+
-- **Gradle**: Uses Gradle Wrapper (no local install required)
-
-### Common Tasks
+Common commands:
 
 | Task | Command |
 | --- | --- |
-| Build debug APK | `./gradlew assembleDebug` |
-| Install debug build | `./gradlew installDebug` |
-| Run unit tests | `./gradlew test` |
+| Build debug variant | `./gradlew assembleDebug` |
+| Install on a device | `./gradlew installDebug` |
+| Unit tests | `./gradlew test` |
 | Lint | `./gradlew lint` |
-| Bundle release | `./gradlew bundleRelease` |
+| Release bundle | `./gradlew bundleRelease` |
 
-## Architecture Highlights
+## Architecture Overview
 
-- **BlooApplication** — Initializes Tor, mesh services, and preferences
-- **BluetoothMeshService** — Handles BLE discovery, connections, and packet routing
-- **BlooMessage & BlooPacket** — Binary protocol models shared with iOS
-- **NoiseEncryptionService** — Wraps Noise framework for encrypted payloads
-- **GossipSyncManager** — Synchronises announcement gossip and store-and-forward queues
-- **Compose UI** — Modern, reactive interface with dedicated screens for mesh, geohash, and private chats
+- **BlooApplication** wires up Tor integration, dependency graph, and background services at launch.
+- **BluetoothMeshService** orchestrates scanning, connections, packet routing, and store-and-forward.
+- **BlooMessage/BlooPacket** model the binary protocol shared with other platforms.
+- **NoiseEncryptionService** encapsulates Noise handshakes for private payloads.
+- **GossipSyncManager** coordinates announcement gossip, deduplication, and queue persistence.
+- **Compose-based UI** provides chat, sidebar, geohash picker, and media experiences.
 
-Refer to the [`docs/`](docs/) folder for deep dives into routing, gossip sync, device management, and file transfer internals.
+Dive into the [`docs/`](docs/) directory for protocol notes, routing strategies, and subsystem deep dives.
 
-## Privacy & Security
+## Security & Privacy
 
-- **No central servers** — All communication happens directly between peers or via community relays
-- **Ephemeral defaults** — Messages reside only in volatile storage unless retention is explicitly enabled
-- **Tor support** — Optional integration routes internet traffic through Tor for enhanced privacy
-- **Cover traffic** — Randomised delays and padding make traffic analysis more difficult
+- No central servers: everything flows peer-to-peer unless you opt into relays.
+- Default volatility: chats live in memory unless a channel owner enforces retention.
+- Tor integration: Bloo can tunnel relay traffic through Tor for greater anonymity.
+- Cover traffic: randomized delays and padding make passive analysis harder.
 
 ## Contributing
 
-Contributions are welcome! Please:
+Feedback, bug reports, and pull requests are welcome. When opening PRs, describe the motivation, summarize changes, and list the tests you ran. Security disclosures should go directly to **Tejasvi Sharma** instead of public issues.
 
-1. Fork the repository and create feature branches from `main`.
-2. Ensure code passes lint and tests (`./gradlew lint test`).
-3. Follow Kotlin & Compose style used in the project.
-4. Submit a PR describing the motivation, high-level changes, and testing performed.
+## License
 
-For security-sensitive issues, email Tejasvi Sharma privately instead of using public issue trackers.
-
-## Acknowledgements
-
-Bloo builds upon the original Bloo protocol and its open-source community. Huge thanks to the pioneers who made decentralized mesh messaging possible.
+Bloo is available under the MIT License — see [LICENSE.md](LICENSE.md) for the grant.
 
 ---
 
